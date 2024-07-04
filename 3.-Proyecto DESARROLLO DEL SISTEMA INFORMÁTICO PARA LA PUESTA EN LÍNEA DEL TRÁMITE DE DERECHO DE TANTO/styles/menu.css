@@ -1,0 +1,236 @@
+.title {
+    text-align: center;
+    margin-top: -16vh;
+    margin-bottom: 15vh;
+    color: #fff; /* Naranja */
+    }
+    .additional-buttons-container {
+        display: none;
+        position: absolute;
+        top: 50px; /* Ajusta la distancia vertical según tus necesidades */
+        left: 0;
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 10px;
+        z-index: 999; /* Ajusta el valor de z-index según sea necesario */
+    }
+    .sidebar {
+        height: 100vh;
+        width: 200px;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        left: 0;
+        background-color: #7f2841;
+        padding-top: 20px;
+    }
+    
+    .sidebar a {
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        color: #7f2841; 
+        transition: 0.3s;
+    }
+    .sidebar a:hover {
+        background-color: #7f2841; 
+        color: #7f2841; 
+    }
+
+    .button-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column; /* Cambio en la dirección del contenedor */
+    }
+    .button {
+        margin-bottom: 10px; /* Espacio entre los botones */
+    }
+
+    .round-button{
+        margin-bottom: 5vh;
+    }
+    .white-button {
+        color: black; /* Color de texto */
+        background-color: #F7F3F1; /* Color de fondo */
+        border: none; /* Quita el borde */
+        padding: 10px; /* Ajusta el padding */
+        margin: 3px; /* Separación vertical del botón 'Crear folio' */
+        margin-bottom: 5vh;
+        width: 70px; /* Igualar el ancho y la altura */
+        height: 70px; /* Igualar el ancho y la altura */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .window-button {    
+        color:black; /* Color rosa */
+        background-color: #F7F3F1; /* Color de fondo */
+        border: none; /* Quita el borde */
+        border-radius: 70px; /* Ajusta el radio de las esquinas */
+        width: 70px; /* Igualar el ancho y la altura */
+        height: 70px; /* Igualar el ancho y la altura */
+    }
+    .ewindow-button{
+        color:black; /* Color rosa */
+        background-color: #F7F3F1; /* Color de fondo */
+        border: none; /* Quita el borde */
+        border-radius: 70px; /* Ajusta el radio de las esquinas */
+        width: 70px; /* Igualar el ancho y la altura */
+        height: 70px; /* Igualar el ancho y la altura */
+        padding: 10px 20px; /* Ajusta el padding */
+    }
+
+    .s-button{
+        color:black; /* Color rosa */
+        background-color: #F7F3F1; /* Color de fondo */
+        border: none; /* Quita el borde */
+        border-radius: 70px; /* Ajusta el radio de las esquinas */
+        width: 70px; /* Igualar el ancho y la altura */
+        height: 70px; /* Igualar el ancho y la altura */
+        padding: 10px 20px; /* Ajusta el padding */
+        margin-left: 3vh;
+    }
+
+    .option-button {    
+        color:black; /* Color rosa */
+        background-color: #F7F3F1; /* Color de fondo */
+        border: none; /* Quita el borde */
+        border-radius: 42px;
+        width: 42px;
+        height: 42px;
+        padding: 0px;
+        
+    }
+    .square-button{
+        color:black; /* Color rosa */
+        background-color: #e5e5e5; /* Color de fondo */
+        border: none; /* Quita el borde */
+        border-radius: 15px;
+        padding: auto;
+        width: 50vh;
+        height: 50px;
+    }
+    i{
+        font-size: 25px;
+    }
+    .bi-check-circle-fill{
+        font-size: 35px;
+    }
+    .bi-x-circle-fill{
+        font-size: 35px;
+    }
+    .bi-exclamation-circle-fill{
+        font-size: 35px;
+    }
+
+    .bi-circle-fill{
+        font-size: 35px;
+    }
+
+    .round-button {
+        border-radius: 50%; /* Botones redondos */
+    }
+    .create-folio-button {
+        margin-top: 30px; /* Separación vertical del botón 'Crear folio' */
+    }
+    .dropdown {
+        margin-bottom: 0px; /* Ajusta el margen inferior según sea necesario */
+        height: 1px;
+    }
+    .emergente{
+        height:auto;;
+        margin-bottom: 25px;
+    }
+    .dropdown-toggle::after {
+        display: none; /* Oculta la flechita */
+    }
+    
+    .dropdown-menu.additional-buttons-container .dropdown-item:focus,
+    .dropdown-menu.additional-buttons-container .dropdown-item:active {
+        background-color: transparent; /* Cambia el fondo al ser seleccionado */
+    }
+    .popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ccc;
+        z-index: 999;
+    }
+    .apopup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ccc;
+        z-index: 999;
+    }
+    .bpopup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ccc;
+        z-index: 999;
+    }
+    .cpopup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ccc;
+        z-index: 999;
+    }
+
+    .btn-red-hover {
+        color: black; /* Color inicial del texto */
+    }
+
+    .btn-red-hover:hover {
+        background-color: red;
+        color: white; /* Cambia el color del texto para que sea visible sobre el fondo rojo */
+        border-color: red; /* Opcional: también puedes cambiar el color del borde */
+    }
+
+    .btn-blue-hover {
+        color: black; /* Color inicial del texto */
+    }
+
+    .btn-blue-hover:hover {
+        background-color: rgb(126, 126, 255);
+        color: white; /* Cambia el color del texto para que sea visible sobre el fondo rojo */
+        border-color: rgb(126, 126, 255); /* Opcional: también puedes cambiar el color del borde */
+    }
+
+    .btn-orange-hover {
+        color: black; /* Color inicial del texto */
+    }
+
+    .btn-orange-hover:hover {
+        background-color: orange;
+        color: white; /* Cambia el color del texto para que sea visible sobre el fondo rojo */
+        border-color: orange; /* Opcional: también puedes cambiar el color del borde */
+    }
+
+    .show {
+        display: block;
+    }
+    .tabla td{
+        text-align: center;
+    }
